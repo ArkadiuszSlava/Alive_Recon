@@ -16,6 +16,12 @@ class Header
 	maxPlayers = 9; //max # of players the mission supports
 };
 
+class CfgFunctions 
+{
+    #include "LVR\functions\functions.hpp"
+    #include "SQF\functions\functions.hpp"
+};  
+
 respawn = "BASE";
 respawnDelay = 3;
 respawnDialog = 0;
