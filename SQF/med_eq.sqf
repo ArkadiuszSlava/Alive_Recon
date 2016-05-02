@@ -1,4 +1,4 @@
-comment "Exported from Arsenal by Bonhart";
+waitUntil {!isNull player};
 
 comment "Remove existing items";
 removeAllWeapons MED;

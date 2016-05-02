@@ -1,3 +1,5 @@
+waitUntil {!isNull player};
+
 comment "Exported from Arsenal by Bonhart";
 
 comment "Remove existing items";
