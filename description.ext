@@ -1,0 +1,22 @@
+disabledAI=0;
+
+overviewText = "Recon Alive";
+overviewTextLocked = "ALiVE | Recon Alive";
+overviewPicture = "";
+
+author = "Lancet"; // Author
+onLoadName = "Recon Alive"; // Mission name (temporary solution; actual name set in editor will be used later in the alpha)
+onLoadMission = "Lancet ALiVE Recon Operations"; // Description
+loadScreen = "";
+
+class Header
+{
+	gameType = Sandbox; // Game type, see 'class' columns in the table below
+	minPlayers = 1; //min # of players the mission supports
+	maxPlayers = 9; //max # of players the mission supports
+};
+
+respawn = "BASE";
+respawnDelay = 3;
+respawnDialog = 0;
+respawnTemplates[] = {"Counter"};
